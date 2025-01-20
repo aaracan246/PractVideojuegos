@@ -1,0 +1,21 @@
+a) ¿Qué ventajas e inconvenientes encuentras al usar una base de
+datos documental con MongoDB?
+
+    Al ser una BDD en la nube, mientras tengas la IP reconocida puedes acceder a las bases de datos desde cualquier lugar,
+teniendo sus ventajas frente a las bases de datos locales.
+
+
+b) ¿Cuáles han sido los principales problemas que has tenido al
+desarrollar la aplicación?
+
+    Al tener falta de experiencia trabajando con la base de datos he tenido problemas con la conexión código - bdd. Los campos de la base de datos requerían "Date" y por algún motivo en el código no me reconocía el formato como tal, así que se ha solventado usando la fecha en formato String.
+
+
+
+c) ¿Cómo solucionarías el problema de la inconsistencia de datos
+en una base de datos documental? (El hecho de que en los
+documentos de una colección no sea obligatorio seguir un
+esquema único)
+
+
+    Para suplir estas inconsistencias se debe validar constantemente los datos y realizar comprobaciones regulares de que los campos entre la base de datos y el código concuerdan.
